@@ -42,7 +42,7 @@ namespace Business.Concrete
 
             //İş kodları
             //Yetki kontrol
-            if (DateTime.Now.Hour == 22)
+            if (DateTime.Now.Hour == 19)
             {
                 return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
             }
