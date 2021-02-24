@@ -12,5 +12,8 @@ namespace Business.Constants
         public static string ProductsListed = "Ürünler Listelendi";
         public static string ProductListed = "Ürün Listelendi";
         public static string UnitPriceInvalid = "Geçersiz Fiyat";
+        public static string ProductCountOfCategoryError = "Kategori limiti aşıldı !";
+        public static string ProductNameExists = "Aynı isimde ürün mevcut";
+        public static string CategoryLimitExceeded = "Kategori limiti aşıldığı için yeni ürün eklenemiyor!";
     }
 }

@@ -9,6 +9,7 @@ using DataAccsess.Concrete.EntityFramework;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Business.CCS;
 
 namespace Business.DependencyResolvers.Autofac
 {
